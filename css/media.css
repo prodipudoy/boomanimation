@@ -32,11 +32,11 @@
          padding-top: 60px;
      }
      .main_content {
-        height: 80vh;
+        height: 85vh;
         position: relative;
     }
     footer {
-        max-height: 20vh;
+        max-height: 15vh;
     }
     .heading1 {
         margin-bottom: 20px;
