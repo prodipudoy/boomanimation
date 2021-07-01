@@ -36,7 +36,7 @@
         position: relative;
     }
     footer {
-        height: 20vh;
+        max-height: 20vh;
     }
     .heading1 {
         margin-bottom: 20px;
