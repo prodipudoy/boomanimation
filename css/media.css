@@ -1,30 +1,46 @@
  /*Extra small devices (portrait phones, less than 576px)*/
  @media (max-width: 575.98px) {
-     .btn_div ul li {
-         padding: 10px 0px;
-         margin: 10px 7px;
-         width: 130px;
-     }
+    .btn_div ul li {
+        padding: 6px 0px;
+        margin: 8px 7px;
+        width: 130px;
+    }
 
      .boom_logo a img {
          width: 40%;
 
      }
-
+     .heading1 {
+       font-size: 20px;
+    }
+    
+    .heading2 {
+        font-size: 20px;
+    }
      .footer_logo a img {
-         width: 50%;
+         width: 40%;
      }
 
      .footer_div p {
+         font-size: 15px;
          text-align: center;
          margin-left: 0;
+         padding-top: 0;
      }
 
      .main_div {
-         padding-top: 50px;
+         padding-top: 60px;
      }
-
-
+     .main_content {
+        height: 80vh;
+        position: relative;
+    }
+    footer {
+        height: 20vh;
+    }
+    .heading1 {
+        margin-bottom: 20px;
+    }
      .bouble:nth-child(1) {
         left: 0;
         width: 40px;
@@ -32,7 +48,7 @@
         animation-duration: 6s;
         animation-delay: 1s;
     }
-    
+   
     .bouble:nth-child(2) {
         left: 10%;
         width: 25px;
@@ -144,21 +160,32 @@
 
  /*Small devices (landscape phones, 576px and up)*/
  @media (min-width: 576px) and (max-width: 767.98px) {
+    .main_content {
+        height: 80vh;
+    }
+    footer {
+        height: 20vh;
+    }
+    .main_div{
+        padding-top: 0;
+    }
      .footer_logo a img {
          width: 25%;
          margin: 0 auto;
      }
 
-     .footer_div p {
-         text-align: center;
-         margin-left: 0;
-     }
+    
 
      .btn_div ul li {
          margin: 10px 8px;
          width: 155px;
      }
-
+     .footer_div p {
+        font-size: 15px;
+        text-align: center;
+        margin-left: 0;
+        padding-top: 0;
+    }
 
  }
 
@@ -166,7 +193,11 @@
  @media (min-width: 768px) and (max-width: 991.98px) {
      .footer_div p {
          margin-left: -135px;
+         margin-bottom: 0;
      }
+     .btn_div {
+        margin-bottom: 10px;
+    }
 
  }
 
@@ -175,6 +206,7 @@
 
      .footer_div p {
          margin-left: -175px;
+         margin-bottom: 0;
      }
 
  }
