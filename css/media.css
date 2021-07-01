@@ -23,6 +23,123 @@
      .main_div {
          padding-top: 50px;
      }
+
+
+     .bouble:nth-child(1) {
+        left: 0;
+        width: 40px;
+        height: 40px;
+        animation-duration: 6s;
+        animation-delay: 1s;
+    }
+    
+    .bouble:nth-child(2) {
+        left: 10%;
+        width: 25px;
+        height: 25px;
+        background-color: #3AB54A;
+        animation-duration: 7s;
+        animation-delay: 2s;
+    }
+    
+    .bouble:nth-child(3) {
+        left: 30%;
+        width: 30px;
+        height: 30px;
+        background-color: #12A89D;
+        animation-duration: 8s;
+        animation-delay: 1s;
+    }
+    
+    .bouble:nth-child(4) {
+        left: 15%;
+        width: 40px;
+        height: 40px;
+        background-color: #EE4037;
+        animation-duration: 8s;
+        animation-delay: 4s;
+    }
+    
+    .bouble:nth-child(5) {
+        left: 5%;
+        width: 10px;
+        height: 10px;
+        background-color: #F7941D;
+        animation-duration: 9s;
+        animation-delay: 1s;
+    }
+    
+    .bouble:nth-child(6) {
+        left: 65%;
+        width: 50px;
+        height: 50px;
+        background-color: #ffffff;
+        animation-duration: 14s;
+        animation-delay: 1s;
+    }
+    
+    .bouble:nth-child(7) {
+        left: 35%;
+        width: 10px;
+        height: 10px;
+        background-color: #12A89D;
+        animation-duration: 15s;
+        animation-delay: 1s;
+    }
+    
+    .bouble:nth-child(8) {
+        left: 75%;
+        width: 40px;
+        height: 40px;
+        background-color: #12A89D;
+        animation-duration: 9s;
+        animation-delay: 2s;
+    }
+    
+    .bouble:nth-child(9) {
+        left: 5%;
+        width: 60px;
+        height: 60px;
+        background-color: #EE4037;
+        animation-duration: 20s;
+        animation-delay: 3s;
+    }
+    
+    .bouble:nth-child(10) {
+        left: 50%;
+        width: 60px;
+        height: 60px;
+        background-color: #F7941D;
+        animation-duration: 12s;
+        animation-delay: 5s;
+    }
+    
+    .bouble:nth-child(11) {
+        left: 35%;
+        width: 30px;
+        height: 30px;
+        background-color: #ffffff;
+        animation-duration: 12s;
+        animation-delay: 6s;
+    }
+    
+    .bouble:nth-child(12) {
+        left: 85%;
+        width: 15px;
+        height: 15px;
+        background-color: #12A89D;
+        animation-duration: 10s;
+        animation-delay: 6s;
+    }
+    
+    .bouble:nth-child(13) {
+        left: 0;
+        width: 20px;
+        height: 20px;
+        background-color: #EE4037;
+        animation-duration: 10s;
+        animation-delay: 6s;
+    }
  }
 
  /*Small devices (landscape phones, 576px and up)*/
