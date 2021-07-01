@@ -33,11 +33,11 @@
          padding-top: 60px;
      }
      .main_content {
-        max-height: 85vh;
+        max-height: 80vh;
         position: relative;
     }
     footer {
-        max-height: 15vh;
+        max-height: 20vh;
     }
     .heading1 {
         margin-bottom: 20px;
