@@ -13,6 +13,7 @@ body {
 .main_content {
     height: 90vh;
     position: relative;
+    overflow: hidden;
 }
 
 .main_div {
