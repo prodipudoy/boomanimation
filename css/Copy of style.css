@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    user-select: none;
+   
+}
+body{
+    background-color: #000;
+}
+.main_content{
+    height: 90vh;
+}
+.main_div{
+    padding-top: 150px;
+}
+
+.btn_div{
+
+}
+.heading1{
+    margin-bottom: 40px;
+    color: white;
+}
+.heading2{
+    color: white;
+    font-weight: 700;
+    padding-top: 20px;
+}
+.btn_div ul li a{
+    text-decoration: none;
+    color: white;
+    
+}
+.btn_div ul li{
+    padding: 10px 20px;
+    width: 155px;
+}
+.btn_div ul li:nth-child(1){
+    background-color: #3AB54A;
+    display: inline-block;
+}
+.btn_div ul li:nth-child(2){
+    background-color: #12A89D;
+     display: inline-block;
+}
+
+.btn_div ul li:nth-child(3){
+    background-color: #EE4037;
+     display: inline-block;
+}
+
+.btn_div ul li:nth-child(4){
+    background-color: #F7941D;
+     display: inline-block;
+}
+.boom_logo a img{
+    width: 20%;
+    margin: 0 auto;
+}
+
+footer{
+    height: 10vh;
+    background-color: #000;
+    border-top: 1px solid white;
+}
+
+.footer_logo a img{
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 10px;
+
+}
+
+.footer_div p{
+    padding-top: 15px;
+    margin-left: -230px;
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+}
+.btn_div ul li.myhoverbtn:hover{
+    background-color: #EE4037;
+    transition: all .5s ease-in-out;
+}
+
+.btn_div ul li.myhoverbtn2:hover{
+    background-color: #F7941D;
+    transition: all .5s ease-in-out;
+}
+.btn_div ul li.myhoverbtn3:hover{
+    background-color: #3AB54A;
+    transition: all .5s ease-in-out;
+}
+
+.btn_div ul li.myhoverbtn4:hover{
+    background-color: #12A89D;
+    transition: all .5s ease-in-out;
+}
+
+
+
+
+
+
+
+
+
+
+
+
